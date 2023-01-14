@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+ }
+
+h1{
+    color: #fff;
+    margin-left: 28px;
+
+}
+
+#heading{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+   }
+
+
+.form {
+   
+    color: white;
+    width: 100%;
+    margin-left: 10px ;
+    box-sizing: border-box;
+}
+
+.form .fields{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:space-around;
+    margin-right:5px;
+   
+}
+
+#name{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:10px;
+    padding:10px;
+    
+}
+#proff{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:10px;
+    padding:10px;
+}
+#age{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:10px;
+    padding:10px;
+} 
+
+#sbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 50px;
+    border-color: black;
+    font-size: 22px;
+}
+
+body #sbtn{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#newHead{
+    margin-left: 15px;
+    margin-top: 60px;
+}
+
+#list{
+    border:"2";
+    border-color:white
+}
